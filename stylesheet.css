@@ -1,0 +1,70 @@
+body {
+    background-color: #567257;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.head-foot {
+    background-color: #2A2420;
+    color: #D9D8D5;
+    text-align: center;
+    padding: 5px;
+    clear: both;
+    margin: 5px;
+}
+
+nav {
+    background-color: #ACAB9E;
+    padding: 1px;
+    margin-bottom: 5px;
+}
+
+nav li {
+    display: inline-block;
+    position: relative; 
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li a:hover {
+    background-color: whitesmoke;
+}
+
+.main {
+    background-color: #D9D8D5;
+    padding: 10px;
+    float: left;
+    width: 65%;
+    border-radius: 10px;
+    border: solid 5px #4a3a30;
+    margin: 5px;
+}
+
+.main form div {
+    padding: 2px;
+}
+
+.sidebar {
+    background-color: #A9CD9E;
+    padding: 10px;
+    float: right;
+    width: 30%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: solid 5px #4a3a30;
+}
+
+.sidebar:hover {
+    background-color: beige;
+}
+
+text:focus {
+    width: 500px;
+}
+
+input:focus {
+    width: 85%;
+}
